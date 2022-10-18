@@ -1,0 +1,12 @@
+[package]
+name = "zzgengine"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "zzgengine"
+
+[dependencies]
+dyn-clone = "1.0.9"
+serde = { version = "1.0.140", features = ["derive", "rc"] }
